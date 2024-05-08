@@ -11,7 +11,7 @@ const FrameComponent10 = memo(() => {
               className="image-2-icon2"
               loading="lazy"
               alt=""
-              src="/image-2@2x.png"
+              src="/Logo.png"
             />
             <div className="image-placeholder">
               <b className="calvary-summer-camp8">Calvary Summer Camp</b>
@@ -30,7 +30,7 @@ const FrameComponent10 = memo(() => {
               className="fluentcall-20-filled-icon3"
               loading="lazy"
               alt=""
-              src="/fluentcall20filled.svg"
+              src="/TelephoneIcon.svg"
             />
             <div className="div3">(917) 282-5706 ; (908) 930-6483</div>
           </div>
@@ -39,7 +39,7 @@ const FrameComponent10 = memo(() => {
               className="dashiconsemail3"
               loading="lazy"
               alt=""
-              src="/dashiconsemail.svg"
+              src="/EmailIcon.svg"
             />
             <div className="calvarykumcsummercampgmailc3">
               calvarykumc.summercamp@gmail.com
@@ -50,7 +50,7 @@ const FrameComponent10 = memo(() => {
               className="mdiaddress-marker-icon3"
               loading="lazy"
               alt=""
-              src="/mdiaddressmarker.svg"
+              src="/LocationIcon.svg"
             />
             <div className="ryders-lane-east3">
               572 Ryders Lane, East Brunswick, NJ 08816

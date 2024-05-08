@@ -26,7 +26,7 @@ const VisionDirector = () => {
             className="password-icon"
             loading="lazy"
             alt=""
-            src="/frame-51@2x.png"
+            src="/PastorPaul.png"
           />
         </div>
       </div>

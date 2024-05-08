@@ -9,7 +9,7 @@ const VolunteerLabel = () => {
             className="image-3-icon4"
             loading="lazy"
             alt=""
-            src="/image-3@2x.png"
+            src="/Logo.png"
           />
           <div className="camp-description-label">
             <h3 className="calvary-summer-camp9">Calvary Summer Camp</h3>

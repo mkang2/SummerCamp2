@@ -4,12 +4,7 @@ const BottomBar = () => {
   return (
     <footer className="frame-footer">
       <div className="image-2-parent">
-        <img
-          className="image-2-icon"
-          loading="lazy"
-          alt=""
-          src="/image-2@2x.png"
-        />
+        <img className="image-2-icon" loading="lazy" alt="" src="/Logo.png" />
         <div className="calvary-logo">
           <b className="calvary-summer-camp5">Calvary Summer Camp</b>
         </div>
@@ -26,7 +21,7 @@ const BottomBar = () => {
                 className="fluentcall-20-filled-icon"
                 loading="lazy"
                 alt=""
-                src="/fluentcall20filled.svg"
+                src="/TelephoneIcon.svg"
               />
               <div className="div">(917) 282-5706 ; (908) 930-6483</div>
             </div>
@@ -35,7 +30,7 @@ const BottomBar = () => {
                 className="dashiconsemail"
                 loading="lazy"
                 alt=""
-                src="/dashiconsemail.svg"
+                src="/EmailIcon.svg"
               />
               <div className="calvarykumcsummercampgmailc">
                 calvarykumc.summercamp@gmail.com
@@ -46,7 +41,7 @@ const BottomBar = () => {
                 className="mdiaddress-marker-icon"
                 loading="lazy"
                 alt=""
-                src="/mdiaddressmarker.svg"
+                src="/LocationIcon.svg"
               />
               <div className="ryders-lane-east">
                 572 Ryders Lane, East Brunswick, NJ 08816

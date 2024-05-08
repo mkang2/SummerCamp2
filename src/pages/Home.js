@@ -11,7 +11,7 @@ const Home = () => {
       <NavBar />
       <section className="learn-more-button-wrapper">
         <div className="learn-more-button">
-          <img className="image-1-icon" alt="" src="/image-1@2x.png" />
+          <img className="image-1-icon" alt="" src="/GroupPic.png" />
           <div className="dates-and-prices-component">
             <h1 className="calvary-summer-camp">Calvary summer camp 2024</h1>
           </div>

@@ -4,12 +4,7 @@ const NavBar = () => {
   return (
     <header className="frame-header">
       <div className="image-3-container">
-        <img
-          className="image-3-icon2"
-          loading="lazy"
-          alt=""
-          src="/image-3@2x.png"
-        />
+        <img className="image-3-icon2" loading="lazy" alt="" src="/Logo.png" />
         <div className="calvary-summer-camp-frame">
           <h3 className="calvary-summer-camp4">Calvary Summer Camp</h3>
         </div>

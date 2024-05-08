@@ -12,7 +12,7 @@ const Contact = () => {
               className="image-3-icon"
               loading="lazy"
               alt=""
-              src="/image-3@2x.png"
+              src="/Logo.png"
             />
             <div className="calvary-summer-camp-wrapper">
               <h3 className="calvary-summer-camp2">Calvary Summer Camp</h3>

@@ -10,7 +10,7 @@ const Program = () => {
             className="image-3-icon1"
             loading="lazy"
             alt=""
-            src="/image-3@2x.png"
+            src="/Logo.png"
           />
           <div className="camp-name">
             <h3 className="calvary-summer-camp3">Calvary Summer Camp</h3>
@@ -167,7 +167,7 @@ const Program = () => {
                       className="frame-inner"
                       loading="lazy"
                       alt=""
-                      src="/line-2.svg"
+                      src="/line.svg"
                     />
                   </div>
                   <div className="morning-worship-930-container">

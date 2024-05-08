@@ -9,7 +9,7 @@ const AboutHero = () => {
             className="image-3-icon3"
             loading="lazy"
             alt=""
-            src="/image-3@2x.png"
+            src="/Logo.png"
           />
           <div className="calvary-summer-camp-wrapper1">
             <h3 className="calvary-summer-camp6">Calvary Summer Camp</h3>

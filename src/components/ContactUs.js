@@ -3,12 +3,7 @@ import "./ContactUs.css";
 const ContactUs = () => {
   return (
     <div className="frame-parent15">
-      <img
-        className="frame-child3"
-        loading="lazy"
-        alt=""
-        src="/frame-41@2x.png"
-      />
+      <img className="frame-child3" loading="lazy" alt="" src="/Suitcase.png" />
       <i className="address-572-ryders">
         Address: 572 Ryders Lane, East Brunswick, NJ 08816
       </i>
@@ -29,7 +24,7 @@ const ContactUs = () => {
                 className="fluentcall-20-filled-icon1"
                 loading="lazy"
                 alt=""
-                src="/fluentcall20filled1.svg"
+                src="/TelephoneIcon.svg"
               />
               <div className="div1">(917) 282-5706 ; (908) 930-6483</div>
             </div>
@@ -38,7 +33,7 @@ const ContactUs = () => {
                 className="dashiconsemail1"
                 loading="lazy"
                 alt=""
-                src="/dashiconsemail1.svg"
+                src="/EmailIcon.svg"
               />
               <div className="calvarykumcsummercampgmailc1">
                 calvarykumc.summercamp@gmail.com
@@ -49,7 +44,7 @@ const ContactUs = () => {
                 className="mdiaddress-marker-icon1"
                 loading="lazy"
                 alt=""
-                src="/mdiaddressmarker1.svg"
+                src="/LocationIcon.svg"
               />
               <div className="ryders-lane-east1">
                 572 Ryders Lane, East Brunswick, NJ 08816
