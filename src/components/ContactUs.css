@@ -1,0 +1,187 @@
+.frame-child3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  width: 515px;
+  height: 352px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.address-572-ryders {
+  position: absolute;
+  top: 378px;
+  left: 6px;
+  display: inline-block;
+  width: 514px;
+  height: 27px;
+}
+.contact-us4 {
+  margin: 0;
+  width: 280px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.calvary-k-u-m-c-instance {
+  width: 456px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.got-questions-or {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.got-questions-or-need-assistan-wrapper {
+  width: 455px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.fluentcall-20-filled-icon1 {
+  height: 25.5px;
+  width: 25.5px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div1 {
+  height: 33.2px;
+  width: 561.4px;
+  position: absolute;
+  margin: 0 !important;
+  top: -3.1px;
+  right: -109px;
+  display: inline-block;
+}
+.contact-info-set {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs-7) 0 var(--padding-12xs-8);
+  position: relative;
+  gap: var(--gap-sm);
+}
+.dashiconsemail1 {
+  height: 25.5px;
+  width: 25.5px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.calvarykumcsummercampgmailc1 {
+  width: 561.4px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -107.7px;
+  display: inline-block;
+  white-space: nowrap;
+}
+.loanme {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-7) 0 var(--padding-11xs-8);
+  position: relative;
+  gap: var(--gap-smi-8);
+}
+.mdiaddress-marker-icon1 {
+  height: 25.5px;
+  width: 25.5px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ryders-lane-east1 {
+  width: 561.4px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -108.7px;
+  display: inline-block;
+}
+.contact-info-set-parent,
+.phone-number {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.phone-number {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-11xs-7) 0 var(--padding-11xs-8);
+  position: relative;
+  gap: var(--gap-smi-8);
+}
+.contact-info-set-parent {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-lgi-1);
+}
+.calvary-k-u-m-c-instance-parent,
+.frame-parent16 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent16 {
+  align-self: stretch;
+  gap: var(--gap-4xl);
+  text-align: left;
+  font-size: var(--body-text-size);
+}
+.calvary-k-u-m-c-instance-parent {
+  position: absolute;
+  top: 0;
+  left: 554px;
+  width: 492px;
+  gap: var(--gap-mini);
+  text-align: center;
+  font-size: var(--heading-1-size);
+  font-family: var(--body-text);
+}
+.frame-parent15 {
+  height: 405px;
+  width: 1046px;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 800px) {
+  .contact-us4 {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .address-572-ryders {
+    font-size: var(--font-size-base);
+  }
+  .contact-us4 {
+    font-size: var(--font-size-lgi);
+  }
+}

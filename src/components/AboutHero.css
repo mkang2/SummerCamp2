@@ -1,0 +1,235 @@
+.image-3-icon3 {
+  height: 69px;
+  width: 69px;
+  position: relative;
+  object-fit: cover;
+}
+.calvary-summer-camp6 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.calvary-summer-camp-wrapper1,
+.image-3-parent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.calvary-summer-camp-wrapper1 {
+  flex-direction: column;
+  padding: var(--padding-base-5) 0 0;
+}
+.image-3-parent1 {
+  flex-direction: row;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.home4 {
+  position: relative;
+  display: inline-block;
+  min-width: 51px;
+}
+.about4,
+.contact4,
+.program4,
+.volunteer4 {
+  position: relative;
+  display: inline-block;
+  min-width: 54px;
+}
+.contact4,
+.program4,
+.volunteer4 {
+  min-width: 74px;
+}
+.contact4,
+.volunteer4 {
+  min-width: 82px;
+}
+.contact4 {
+  min-width: 70px;
+}
+.home-container,
+.home-program-box {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.home-container {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-25xl);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--color-gray-200);
+  font-family: var(--body-text);
+}
+.home-program-box {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.register3 {
+  position: relative;
+  font-size: var(--body-text-size);
+  font-weight: 600;
+  font-family: var(--body-text);
+  color: var(--color-antiquewhite);
+  text-align: left;
+  display: inline-block;
+  min-width: 71px;
+}
+.register-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-6xl);
+  background-color: var(--color-orange);
+  border-radius: var(--br-30xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.register-button1:hover {
+  background-color: var(--color-darkgoldenrod);
+}
+.frame-parent10,
+.frame-wrapper3,
+.home-program-box-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.home-program-box-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-10xl);
+}
+.frame-parent10,
+.frame-wrapper3 {
+  box-sizing: border-box;
+}
+.frame-wrapper3 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-4xs) 0 0;
+}
+.frame-parent10 {
+  align-self: stretch;
+  background-color: var(--color-floralwhite);
+  flex-direction: row;
+  padding: var(--padding-7xl) var(--padding-37xl-5) var(--padding-11xl);
+  gap: var(--gap-50xl-5);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--body-text);
+}
+.image-82 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-lightsalmon);
+}
+.contact-us3 {
+  position: relative;
+  font-size: var(--banner-text-size);
+  display: inline-block;
+  font-family: var(--body-text);
+  color: var(--color-white);
+  text-align: center;
+  min-width: 126px;
+}
+.contact-us-frame,
+.image-8-container,
+.instance-group {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contact-us-frame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-xl);
+  background-color: var(--color-gray-300);
+  width: 348px;
+  border-radius: var(--br-41xl);
+  flex-direction: row;
+  justify-content: center;
+  z-index: 1;
+}
+.contact-us-frame:hover {
+  background-color: var(--color-darkslategray);
+}
+.image-8-container,
+.instance-group {
+  align-self: stretch;
+}
+.image-8-container {
+  background-color: var(--color-gray-400);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-62xl) var(--padding-xl) var(--padding-64xl);
+  position: relative;
+  z-index: 3;
+}
+.instance-group {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-308xl);
+}
+@media screen and (max-width: 1350px) {
+  .home-program-box {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frame-parent10,
+  .home-container {
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+  .frame-parent10 {
+    gap: var(--gap-16xl);
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+  }
+  .contact-us3 {
+    font-size: var(--heading-1-size);
+  }
+  .instance-group {
+    padding-bottom: var(--padding-194xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .home-container {
+    display: none;
+  }
+  .frame-parent10 {
+    gap: var(--gap-mid);
+  }
+  .contact-us3 {
+    font-size: var(--font-size-5xl);
+  }
+}

@@ -1,0 +1,776 @@
+.image-3-icon1 {
+  height: 69px;
+  width: 69px;
+  position: relative;
+  object-fit: cover;
+}
+.calvary-summer-camp3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.camp-name,
+.image-3-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.camp-name {
+  flex-direction: column;
+  padding: var(--padding-base-5) 0 0;
+}
+.image-3-group {
+  flex-direction: row;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.about2,
+.contact2,
+.home2,
+.program2,
+.volunteer1 {
+  position: relative;
+  display: inline-block;
+  min-width: 51px;
+}
+.contact2,
+.program2,
+.volunteer1 {
+  min-width: 78px;
+}
+.contact2,
+.volunteer1 {
+  min-width: 82px;
+}
+.contact2 {
+  min-width: 70px;
+}
+.frame-nav,
+.home-group {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.home-group {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-24xl-5);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--color-gray-200);
+  font-family: var(--body-text);
+}
+.frame-nav {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.register1 {
+  position: relative;
+  font-size: var(--body-text-size);
+  font-weight: 600;
+  font-family: var(--body-text);
+  color: var(--color-antiquewhite);
+  text-align: left;
+  display: inline-block;
+  min-width: 71px;
+}
+.register-container {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-6xl);
+  background-color: var(--color-orange);
+  border-radius: var(--br-30xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.register-container:hover {
+  background-color: var(--color-darkgoldenrod);
+}
+.frame-container,
+.frame-div,
+.frame-parent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent1 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-10xl);
+}
+.frame-container,
+.frame-div {
+  box-sizing: border-box;
+}
+.frame-div {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-4xs) 0 0;
+}
+.frame-container {
+  align-self: stretch;
+  background-color: var(--color-floralwhite);
+  flex-direction: row;
+  padding: var(--padding-7xl) var(--padding-37xl-5) var(--padding-11xl);
+  gap: var(--gap-50xl-5);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--body-text);
+}
+.image-81 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #469aff;
+}
+.contact-us1 {
+  position: relative;
+  font-size: var(--banner-text-size);
+  font-family: var(--body-text);
+  color: var(--color-white);
+  text-align: center;
+}
+.contact-us-container {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-xl);
+  background-color: var(--color-gray-300);
+  width: 348px;
+  border-radius: var(--br-41xl);
+  justify-content: center;
+  z-index: 1;
+}
+.contact-us-container:hover {
+  background-color: var(--color-darkslategray);
+}
+.contact-us-container,
+.image-8-group,
+.program-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-8-group {
+  flex: 1;
+  background-color: var(--color-gray-400);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-62xl) var(--padding-xl) var(--padding-64xl);
+  position: relative;
+  z-index: 1;
+}
+.program-inner {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 100px;
+}
+.child-price-icon,
+.program-details {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.child-price-icon {
+  height: 400px;
+  border-radius: var(--br-11xl);
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 335px;
+}
+.program-details {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.program-details-wrapper {
+  width: 386px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.dates1 {
+  font-family: var(--body-text);
+}
+.blank-line1,
+.dates-monday-july-1st-to-fri {
+  margin: 0;
+}
+.times {
+  font-family: var(--body-text);
+}
+.blank-line2,
+.times-900am-330pm {
+  margin: 0;
+}
+.ages {
+  font-family: var(--body-text);
+}
+.ages-current-kindergarteners,
+.blank-line3 {
+  margin: 0;
+}
+.field-trips {
+  font-family: var(--body-text);
+}
+.field-trips-we-will-go-to-one {
+  margin: 0;
+}
+.dates-monday-july-container {
+  align-self: stretch;
+  position: relative;
+}
+.learn-more {
+  position: relative;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  font-family: var(--body-text);
+  color: var(--color-white);
+  text-align: center;
+  min-width: 77px;
+}
+.learn-more-button1,
+.learn-more-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.learn-more-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) 49.5px;
+  background-color: var(--color-orange);
+  border-radius: var(--br-21xl);
+  justify-content: flex-start;
+}
+.learn-more-wrapper:hover {
+  background-color: var(--color-darkgoldenrod);
+}
+.learn-more-button1 {
+  width: 386px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.dates,
+.frame-parent2 {
+  align-self: stretch;
+  flex-direction: column;
+}
+.dates {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-text-size);
+}
+.frame-parent2 {
+  gap: var(--gap-lg);
+}
+.additional-sibling-discount,
+.frame-parent2,
+.rates-discounts-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.additional-sibling-discount {
+  width: 412px;
+  flex-direction: column;
+  padding: 17px 0 0;
+  box-sizing: border-box;
+  min-width: 412px;
+}
+.rates-discounts-content {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 74px;
+}
+.daily-schedule,
+.rates-discounts {
+  margin: 0;
+  width: 325px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.child-participant,
+.child-participant-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.child-participant {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.child-participant-wrapper {
+  width: 891px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xl);
+  box-sizing: border-box;
+}
+.st-child {
+  position: relative;
+  display: inline-block;
+  min-width: 81px;
+}
+.st-child-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 13px 0 13.5px;
+}
+.i {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-13xl-1);
+  font-weight: 700;
+  white-space: nowrap;
+}
+.frame-parent4 {
+  width: 163px;
+  border-radius: 19px;
+  background-color: var(--color-lavender);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-8xl-5);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  min-width: 163px;
+}
+.each-additional-child {
+  align-self: stretch;
+  position: relative;
+}
+.i1 {
+  flex: 1;
+  position: relative;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.frame-parent3,
+.map-icon,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 46px 0 46.5px;
+  font-size: var(--font-size-13xl-1);
+}
+.frame-parent3,
+.map-icon {
+  gap: var(--gap-3xs);
+}
+.map-icon {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: #e6f1ff;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-6xl);
+  box-sizing: border-box;
+  min-width: 159px;
+}
+.frame-parent3 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.discount {
+  font-family: var(--body-text);
+}
+.blank-line4,
+.discount-each-additional-sibl {
+  margin: 0;
+}
+.price-includes {
+  font-family: var(--body-text);
+}
+.price-includes-textbooks-not {
+  margin: 0;
+}
+.discount-each-additional-container {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.discount-each-additional-sibl-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 14px 0 var(--padding-4xs);
+  box-sizing: border-box;
+  font-size: var(--body-text-size);
+  font-family: var(--body-text);
+}
+.address-icon,
+.discount-each-additional-sibl-wrapper,
+.email-icon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.address-icon {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px;
+}
+.email-icon {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.non-refundable-deposit-due-upo {
+  margin-block-start: 0;
+  margin-block-end: 7px;
+}
+.full-payment-due {
+  font-weight: 600;
+  font-family: var(--font-inter);
+}
+.full-payment-due-by-52624 {
+  margin: 0;
+}
+.non-refundable-deposit-due-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 120.67%;
+  text-align: center;
+}
+.email-icon-parent {
+  width: 421px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  min-width: 421px;
+  max-width: 100%;
+}
+.july-1st- {
+  position: relative;
+}
+.morning-worship {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 57px 0 57.5px;
+}
+.mon-fri {
+  flex: 1;
+  position: relative;
+}
+.study-sessions {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-30xl) 0 49.3px;
+  text-align: center;
+}
+.frame-inner {
+  height: 2.4px;
+  width: 243.7px;
+  position: relative;
+}
+.vector-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-24xl) 0 43.2px;
+}
+.lunch,
+.morning-worship1,
+.snack-time,
+.specialsactivity,
+.study-session-1,
+.study-session-2,
+.study-session-3 {
+  margin-block-start: 0;
+  margin-block-end: 11px;
+  white-space: pre-wrap;
+}
+.closing-worship {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.morning-worship-930-container {
+  align-self: stretch;
+  position: relative;
+  font-size: 19.5px;
+  letter-spacing: -0.01em;
+  line-height: 146%;
+  flex-shrink: 0;
+}
+.calvary-camp-logo,
+.morning-worship-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.morning-worship-parent {
+  width: 385px;
+  border-radius: 24.37px;
+  background-color: var(--color-lavender);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 22.8px var(--padding-8xl-5) 23.7px;
+  box-sizing: border-box;
+  gap: 8.2px;
+  min-width: 385px;
+  font-size: var(--font-size-xl-7);
+  font-family: var(--body-text);
+}
+.calvary-camp-logo {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+}
+.program-dates-and-times {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  max-width: 100%;
+}
+.program-dates-and-times-wrapper {
+  width: 964px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rates-discounts-content-parent {
+  width: 1001px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 119px;
+  max-width: 100%;
+}
+.program-child,
+.program1 {
+  display: flex;
+  align-items: flex-start;
+}
+.program-child {
+  width: 1401px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 165px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--heading-1-size);
+  color: var(--color-black);
+  font-family: var(--body-text);
+}
+.program1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .frame-nav {
+    display: none;
+  }
+  .program-child {
+    padding-bottom: 107px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .additional-sibling-discount {
+    flex: 1;
+  }
+  .rates-discounts-content {
+    flex-wrap: wrap;
+    gap: 37px;
+  }
+  .child-participant {
+    flex-wrap: wrap;
+  }
+  .address-icon,
+  .email-icon-parent,
+  .morning-worship-parent {
+    flex: 1;
+  }
+  .calvary-camp-logo {
+    flex-wrap: wrap;
+  }
+  .rates-discounts-content-parent {
+    gap: 59px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frame-container,
+  .home-group {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .frame-container {
+    gap: var(--gap-16xl);
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+  }
+  .contact-us1 {
+    font-size: var(--heading-1-size);
+  }
+  .program-details {
+    font-size: var(--font-size-7xl);
+  }
+  .additional-sibling-discount {
+    min-width: 100%;
+  }
+  .rates-discounts-content {
+    gap: var(--gap-lg);
+  }
+  .daily-schedule,
+  .i,
+  .i1,
+  .rates-discounts {
+    font-size: var(--font-size-7xl);
+  }
+  .email-icon-parent,
+  .morning-worship-parent {
+    min-width: 100%;
+  }
+  .rates-discounts-content-parent {
+    gap: var(--gap-11xl);
+  }
+  .program-child {
+    padding-bottom: var(--padding-51xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .home-group {
+    display: none;
+  }
+  .frame-container {
+    gap: var(--gap-mid);
+  }
+  .contact-us1 {
+    font-size: var(--font-size-5xl);
+  }
+  .program-inner {
+    padding-bottom: 65px;
+    box-sizing: border-box;
+  }
+  .program-details {
+    font-size: var(--font-size-lgi);
+  }
+  .dates {
+    gap: 16px;
+  }
+  .daily-schedule,
+  .rates-discounts {
+    font-size: var(--font-size-lgi);
+  }
+  .st-child {
+    font-size: var(--font-size-base);
+  }
+  .i {
+    font-size: var(--font-size-lgi);
+  }
+  .frame-parent4 {
+    flex: 1;
+  }
+  .each-additional-child {
+    font-size: var(--font-size-base);
+  }
+  .i1 {
+    font-size: var(--font-size-lgi);
+  }
+  .frame-parent3 {
+    flex-wrap: wrap;
+  }
+  .july-1st- {
+    font-size: var(--body-text-size);
+  }
+  .morning-worship {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .mon-fri {
+    font-size: var(--body-text-size);
+  }
+  .study-sessions,
+  .vector-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .morning-worship-parent {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

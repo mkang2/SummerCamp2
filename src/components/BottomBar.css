@@ -1,0 +1,211 @@
+.image-2-icon {
+  height: 62.1px;
+  width: 69.1px;
+  object-fit: cover;
+}
+.calvary-summer-camp5,
+.image-2-icon {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.calvary-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.calvary-kumc-all {
+  width: 381px;
+  position: absolute;
+  margin: 0 !important;
+  right: -10.8px;
+  bottom: -16.9px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+.image-2-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-mini-1);
+  max-width: 100%;
+}
+.contact-us2 {
+  width: 118px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 118px;
+}
+.fluentcall-20-filled-icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: calc(100% - 31px);
+}
+.location-details {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  max-width: 100%;
+}
+.dashiconsemail {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.calvarykumcsummercampgmailc {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  max-width: calc(100% - 30px);
+}
+.email-address {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.mdiaddress-marker-icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ryders-lane-east {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: calc(100% - 30px);
+}
+.email-address1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.location-details-parent {
+  width: 471px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  max-width: 134%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-mini);
+}
+.contact-us-parent {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.contact-us-parent,
+.frame-footer,
+.frame-wrapper2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frame-wrapper2 {
+  width: 353px;
+  flex-direction: column;
+  padding: var(--padding-lg) 0 0;
+  min-width: 353px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-200);
+}
+.frame-footer {
+  margin-right: -47px;
+  width: 1534px;
+  background-color: var(--color-floralwhite);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-24xl) var(--padding-220xl) var(--padding-19xl);
+  gap: var(--gap-146xl-8);
+  max-width: 107%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-9xl-1);
+  color: var(--color-dimgray-100);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 1350px) {
+  .frame-wrapper2 {
+    flex: 1;
+  }
+  .frame-footer {
+    flex-wrap: wrap;
+    gap: var(--gap-64xl);
+    justify-content: center;
+    padding-left: var(--padding-100xl);
+    padding-right: var(--padding-100xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .frame-wrapper2 {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .image-2-parent {
+    flex-wrap: wrap;
+  }
+  .frame-footer {
+    gap: var(--gap-22xl);
+    padding-left: var(--padding-40xl);
+    padding-right: var(--padding-40xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .calvary-summer-camp5 {
+    font-size: var(--font-size-3xl);
+  }
+  .contact-us2 {
+    font-size: var(--font-size-base);
+  }
+  .frame-footer {
+    gap: var(--gap-2xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,35 @@
+.our-program {
+  margin: 0;
+  height: 43px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.dates-and-prices {
+  position: absolute;
+  top: 0;
+  left: 145px;
+  width: 217px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--heading-1-size);
+  color: var(--color-black);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 800px) {
+  .our-program {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .our-program {
+    font-size: var(--font-size-lgi);
+  }
+}
