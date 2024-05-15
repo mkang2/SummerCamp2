@@ -2,6 +2,7 @@
 .calvary-summer-camp1,
 .we-look-forward {
   margin: 0;
+  position: relative;
 }
 .calvary-summer-camp-container {
   width: 827px;
@@ -29,6 +30,7 @@
 .frame-item {
   position: absolute;
   overflow: hidden;
+  padding-left: 62px;
 }
 .frame-child {
   top: 354.6px;

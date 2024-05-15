@@ -10,7 +10,8 @@ const About = () => {
       <section className="calvary-summer-camp-is-a-place-wrapper">
         <div className="calvary-summer-camp-container">
           <p className="calvary-summer-camp1">
-            Calvary summer camp is a place where your child can come to
+            <br></br>
+            Calvary Summer Camp is a place where your child can come to
             strengthen their mathematical and language arts skills and cultivate
             relationships with one another in a Christian environment. We have a
             dedicated team of young professionals who are adept at fostering
@@ -37,7 +38,7 @@ const About = () => {
       <section className="about-inner">
         <VisionDirector />
       </section>
-      <FrameComponent10 />
+      <FrameComponent10></FrameComponent10>
     </div>
   );
 };

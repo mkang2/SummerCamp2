@@ -6,6 +6,7 @@
   bottom: -108px;
   left: -33px;
   object-fit: cover;
+  padding-left: 80px;
 }
 .calvary-summer-camp {
   margin: 0;
@@ -20,9 +21,11 @@
 }
 .dates-and-prices-component {
   align-self: stretch;
-  border-radius: var(--br-xl);
+  /* border-radius: var(--br-xl); */
+  border-radius: 50px;
   background-color: rgba(41, 41, 41, 0.4);
   display: flex;
+  margin-right: 110px;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;

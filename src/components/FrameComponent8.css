@@ -151,7 +151,8 @@
 }
 .frame-parent17 {
   margin-right: -47px;
-  width: 1534px;
+  /* width: 1534px; */
+  width: 1700px;
   background-color: var(--color-floralwhite);
   overflow: hidden;
   flex-direction: row;
