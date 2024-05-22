@@ -185,3 +185,8 @@
     font-size: var(--font-size-lgi);
   }
 }
+@media (max-width: 430px) {
+  .address-572-ryders {
+    font-size: small;
+  }
+}

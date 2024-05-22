@@ -29,18 +29,11 @@ const About = () => {
       </section>
       <section className="frame-parent">
         <div className="frame-child" />
-        {/* <img
-          className="frame-item"
-          loading="lazy"
-          alt=""
-          src="/frame-370@2x.png"
-        /> */}
       </section>
       <section className="about-inner">
         <VisionDirector />
       </section>
       <BottomBar></BottomBar>
-      {/* <FrameComponent10></FrameComponent10> */}
     </div>
   );
 };

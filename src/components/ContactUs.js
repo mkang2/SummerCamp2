@@ -12,7 +12,6 @@ const ContactUs = () => {
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
-      {/* <img className="frame-child3" loading="lazy" alt="" src="/Suitcase.png" /> */}
       <i className="address-572-ryders">
         Address: 572 Ryders Lane, East Brunswick, NJ 08816
       </i>

@@ -209,4 +209,9 @@
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+  @media (max-width: 430px) {
+    .image-2-icon {
+      padding-bottom: 20px;
+    }
+  }
 }

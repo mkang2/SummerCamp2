@@ -24,11 +24,6 @@ const AboutHero = () => {
                 <a href="/program">Program</a>
                 <a href="/volunteer">Volunteer</a>
                 <a href="/contact">Contact</a>
-                {/* <div className="home4">Home</div>
-                <b className="about4">About</b>
-                <div className="program4">Program</div>
-                <div className="volunteer4">Volunteer</div>
-                <div className="contact4">Contact</div> */}
               </nav>
             </nav>
             <a

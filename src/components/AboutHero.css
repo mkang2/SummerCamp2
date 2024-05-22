@@ -272,4 +272,9 @@
   .instance-group {
     padding: 0; /* Remove padding for mobile */
   }
+
+  .contact-us3 {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
 }
