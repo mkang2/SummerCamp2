@@ -197,39 +197,79 @@
   justify-content: flex-start;
   padding: 0 0 var(--padding-308xl);
 }
-@media screen and (max-width: 1350px) {
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 430px) {
+  .image-3-icon3 {
+    height: 50px; /* Adjust height for better fit */
+    width: 50px; /* Adjust width for better fit */
+  }
+
+  .calvary-summer-camp6 {
+    font-size: 18px; /* Adjust font size for mobile */
+    white-space: normal; /* Allow wrapping */
+    text-align: center; /* Center text for better alignment */
+  }
+
+  .calvary-summer-camp-wrapper1 {
+    padding: var(--padding-xs) 0 0; /* Adjust padding for mobile */
+  }
+
+  .image-3-parent1 {
+    flex-direction: column; /* Stack items vertically */
+    gap: var(--gap-xs); /* Adjust gap for mobile */
+  }
+
+  .home4,
+  .about4,
+  .contact4,
+  .program4,
+  .volunteer4 {
+    min-width: auto; /* Remove min-width constraint */
+    text-align: center; /* Center text */
+  }
+
+  .home-container {
+    flex-direction: column; /* Stack items vertically */
+    padding: 0 var(--padding-xs); /* Adjust padding for mobile */
+    gap: var(--gap-xs); /* Adjust gap for mobile */
+  }
+
   .home-program-box {
-    display: none;
+    padding: var(--padding-xs) 0 0; /* Adjust padding for mobile */
   }
-}
-@media screen and (max-width: 800px) {
-  .frame-parent10,
-  .home-container {
-    padding-left: var(--padding-3xl);
-    padding-right: var(--padding-3xl);
-    box-sizing: border-box;
+
+  .register3 {
+    font-size: 16px; /* Adjust font size for mobile */
+    min-width: auto; /* Remove min-width constraint */
   }
+
+  .register-button1 {
+    padding: var(--padding-xs) var(--padding-xs); /* Adjust padding for mobile */
+    justify-content: center; /* Center the content */
+  }
+
   .frame-parent10 {
-    gap: var(--gap-16xl);
-    padding-left: var(--padding-9xl);
-    padding-right: var(--padding-9xl);
+    flex-direction: column; /* Stack items vertically */
+    padding: var(--padding-xs); /* Adjust padding for mobile */
+    gap: var(--gap-xs); /* Adjust gap for mobile */
   }
-  .contact-us3 {
-    font-size: var(--heading-1-size);
+
+  .frame-wrapper3 {
+    padding: var(--padding-xs) 0 0; /* Adjust padding for mobile */
   }
+
+  .contact-us-frame {
+    width: auto; /* Remove width constraint */
+    padding: var(--padding-xs); /* Adjust padding for mobile */
+  }
+
+  .image-8-container {
+    padding: var(--padding-xs); /* Adjust padding for mobile */
+    flex-direction: column; /* Stack items vertically */
+  }
+
   .instance-group {
-    padding-bottom: var(--padding-194xl);
-    box-sizing: border-box;
-  }
-}
-@media screen and (max-width: 450px) {
-  .home-container {
-    display: none;
-  }
-  .frame-parent10 {
-    gap: var(--gap-mid);
-  }
-  .contact-us3 {
-    font-size: var(--font-size-5xl);
+    padding: 0; /* Remove padding for mobile */
   }
 }

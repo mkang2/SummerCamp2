@@ -98,3 +98,47 @@
     gap: var(--gap-2xl);
   }
 }
+
+/* Media Queries for Mobile Responsiveness */
+@media screen and (max-width: 430px) {
+  .calvary-summer-camp-container {
+    width: 100%; /* Ensure the container takes full width */
+  }
+
+  .calvary-summer-camp-is-a-place-wrapper {
+    flex-direction: column; /* Stack items vertically */
+    padding: 0 var(--padding-xs); /* Adjust padding for mobile */
+    text-align: center; /* Center text */
+  }
+
+  .frame-child {
+    top: auto; /* Adjust positioning */
+    left: auto; /* Adjust positioning */
+    width: 100%; /* Ensure the frame takes full width */
+    height: auto; /* Adjust height */
+    transform: none; /* Remove rotation */
+  }
+
+  .frame-item {
+    top: auto; /* Adjust positioning */
+    left: auto; /* Adjust positioning */
+    width: 100%; /* Ensure the frame takes full width */
+    height: auto; /* Adjust height */
+  }
+
+  .frame-parent {
+    position: relative; /* Adjust positioning */
+    height: auto; /* Adjust height */
+    top: auto; /* Adjust positioning */
+  }
+
+  .about-inner {
+    flex-direction: column; /* Stack items vertically */
+    padding: var(--padding-xs); /* Adjust padding for mobile */
+    text-align: center; /* Center text */
+  }
+
+  .about {
+    gap: var(--gap-2xl); /* Adjust gap for mobile */
+  }
+}

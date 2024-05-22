@@ -107,9 +107,68 @@
   color: var(--color-black);
   font-family: var(--body-text);
 }
-@media screen and (max-width: 800px) {
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 430px) {
+  .frame-child1 {
+    height: auto;
+    min-width: auto;
+    width: 100%;
+    border-radius: var(--br-5xl); /* Adjusted for smaller screens */
+  }
+
+  .explore-the-adventure {
+    font-size: 18px; /* Adjust font size as needed */
+    text-align: center;
+  }
+
+  .explore-the-adventure-awaiting-wrapper {
+    position: static; /* Remove absolute positioning */
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding-3xs) var(--padding-xs);
+  }
+
+  .frame-parent8 {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .learn-more2 {
+    font-size: 16px; /* Adjust font size as needed */
+    min-width: auto;
+  }
+
+  .learn-more-frame {
+    padding: var(--padding-mini) var(--padding-xs);
+    white-space: normal;
+    justify-content: center;
+  }
+
+  .volunteer-application-form-inner {
+    padding: var(--padding-xs);
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .volunteer-application-form-wrapper {
+    padding: var(--padding-2xl) 0 0;
+    min-width: auto;
+    align-items: center;
+  }
+
+  .frame-parent7 {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-xs);
+  }
+
   .home-child {
-    padding-bottom: var(--padding-78xl);
-    box-sizing: border-box;
+    padding: var(--padding-xs);
+    font-size: var(--body-text-size);
+    text-align: center;
   }
 }

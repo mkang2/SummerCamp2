@@ -8,6 +8,7 @@
   font-family: inherit;
   display: inline-block;
 }
+
 .dates-and-prices {
   position: absolute;
   top: 0;
@@ -23,13 +24,23 @@
   color: var(--color-black);
   font-family: var(--body-text);
 }
-@media screen and (max-width: 800px) {
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 430px) {
   .our-program {
-    font-size: var(--font-size-7xl);
+    height: auto;
+    font-size: 18px; /* Adjust font size as needed */
+    display: block; /* Change display to block for better flow */
+    text-align: center; /* Center text for better alignment */
+    margin-top: 20px; /* Add margin for spacing */
   }
-}
-@media screen and (max-width: 450px) {
-  .our-program {
-    font-size: var(--font-size-lgi);
+
+  .dates-and-prices {
+    position: static; /* Remove absolute positioning */
+    width: 100%; /* Adjust width to fit the container */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    font-size: 16px; /* Adjust font size as needed */
+    margin-top: 10px; /* Add margin for spacing */
   }
 }

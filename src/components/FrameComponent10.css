@@ -177,6 +177,7 @@
   color: var(--color-dimgray-100);
   font-family: var(--body-text);
 }
+
 @media screen and (max-width: 1350px) {
   .registration-form {
     flex: 1;
@@ -190,11 +191,13 @@
     box-sizing: border-box;
   }
 }
+
 @media screen and (max-width: 1125px) {
   .registration-form {
     min-width: 100%;
   }
 }
+
 @media screen and (max-width: 800px) {
   .calendar-icon {
     flex-wrap: wrap;
@@ -206,17 +209,45 @@
     box-sizing: border-box;
   }
 }
+
 @media screen and (max-width: 450px) {
   .calvary-summer-camp8 {
     font-size: var(--font-size-3xl);
   }
   .contact-us6 {
     font-size: var(--font-size-base);
+    padding-left: 120px;
   }
   .frame-parent19 {
     gap: var(--gap-lgi);
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
+  }
+  .call-to-action-parent {
+    width: 100%;
+    align-items: center;
+  }
+  .email-link1 {
+    justify-content: center;
+  }
+  .image-placeholder {
+    padding: var(--padding-xs) 0 0;
+    padding-left: 100px;
+  }
+  .email-icon-wrapper {
+    width: 100%;
+    padding: var(--padding-18xl) var(--padding-l) 0;
+  }
+  .call-to-action {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-us6,
+  .div3,
+  .calvarykumcsummercampgmailc3,
+  .ryders-lane-east3 {
+    text-align: center;
+    max-width: 100%;
   }
 }

@@ -145,29 +145,63 @@ a {
   text-decoration: none;
   color: black;
 }
-@media screen and (max-width: 1350px) {
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 430px) {
+  .frame-header {
+    flex-direction: column;
+    padding: var(--padding-4xs) var(--padding-4xs) var(--padding-4xs);
+    gap: var(--gap-mini);
+    font-size: var(--font-size-base); /* Adjust font size as needed */
+  }
+
+  .home-about-program {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 var(--padding-xs);
+    gap: var(--gap-small);
+  }
+
+  .image-3-container {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-mini);
+  }
+
+  .home3,
+  .about3,
+  .contact3,
+  .program3,
+  .volunteer3,
+  .register2 {
+    min-width: auto;
+    font-size: var(--font-size-base); /* Adjust font size as needed */
+    margin-bottom: var(--margin-small); /* Add spacing between items */
+  }
+
+  .camp-image-container {
+    padding: var(--padding-4xs) var(--padding-2xs);
+    justify-content: center;
+  }
+
+  .calvary-summer-camp-frame {
+    padding: var(--padding-xs) 0;
+  }
+
   .home-about-program-wrapper {
-    display: none;
+    align-items: center;
   }
-}
-@media screen and (max-width: 800px) {
-  .frame-header,
-  .home-about-program {
-    padding-left: var(--padding-3xl);
-    padding-right: var(--padding-3xl);
-    box-sizing: border-box;
+
+  .image-3-icon2 {
+    padding-left: 150px;
   }
-  .frame-header {
-    gap: var(--gap-16xl);
-    padding-left: var(--padding-9xl);
-    padding-right: var(--padding-9xl);
+
+  .calvary-summer-camp4 {
+    padding-left: 100px;
   }
-}
-@media screen and (max-width: 450px) {
-  .home-about-program {
-    display: none;
-  }
-  .frame-header {
-    gap: var(--gap-mid);
+
+  .register2 {
+    padding-right: 25px;
+    padding-left: 50px;
   }
 }

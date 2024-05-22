@@ -2,6 +2,7 @@ import AboutHero from "../components/AboutHero";
 import VisionDirector from "../components/VisionDirector";
 import FrameComponent10 from "../components/FrameComponent10";
 import "./About.css";
+import BottomBar from "../components/BottomBar";
 
 const About = () => {
   return (
@@ -28,17 +29,18 @@ const About = () => {
       </section>
       <section className="frame-parent">
         <div className="frame-child" />
-        <img
+        {/* <img
           className="frame-item"
           loading="lazy"
           alt=""
           src="/frame-370@2x.png"
-        />
+        /> */}
       </section>
       <section className="about-inner">
         <VisionDirector />
       </section>
-      <FrameComponent10></FrameComponent10>
+      <BottomBar></BottomBar>
+      {/* <FrameComponent10></FrameComponent10> */}
     </div>
   );
 };
