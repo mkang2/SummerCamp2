@@ -1,12 +1,14 @@
 import ContactUs from "../components/ContactUs";
 import FrameComponent8 from "../components/FrameComponent8";
 import "./Contact.css";
+import NavBar from "../components/NavBar";
 
 const Contact = () => {
   return (
     <div className="contact">
       <section className="instance-parent">
-        <header className="frame-group">
+        <NavBar></NavBar>
+        {/* <header className="frame-group">
           <div className="image-3-parent">
             <img
               className="image-3-icon"
@@ -39,7 +41,7 @@ const Contact = () => {
               </a>
             </div>
           </div>
-        </header>
+        </header> */}
         <div className="image-8-parent">
           <div className="image-8" />
           <button className="contact-us-wrapper">

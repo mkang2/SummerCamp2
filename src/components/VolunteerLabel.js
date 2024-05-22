@@ -1,9 +1,11 @@
 import "./VolunteerLabel.css";
+import NavBar from "./NavBar";
 
 const VolunteerLabel = () => {
   return (
     <section className="volunteer-label">
-      <header className="frame-parent20">
+      <NavBar></NavBar>
+      {/* <header className="frame-parent20">
         <div className="image-3-parent2">
           <img
             className="image-3-icon4"
@@ -19,20 +21,11 @@ const VolunteerLabel = () => {
           <div className="program-title-label-parent">
             <div className="program-title-label">
               <div className="email-address-label-parent">
-                {/* <div className="email-address-label"> */}
                 <a href="/">Home</a>
                 <a href="/about">About</a>
                 <a href="/program">Program</a>
                 <a href="/volunteer">Volunteer</a>
                 <a href="/contact">Contact</a>
-                {/* <div className="home5">Home</div> */}
-                {/* </div> */}
-                {/* <div className="email-address-label1"> */}
-                {/* <div className="about5">About</div> */}
-                {/* </div> */}
-                {/* <div className="program5">Program</div> */}
-                {/* <b className="volunteer5">Volunteer</b> */}
-                {/* <div className="contact5">Contact</div> */}
               </div>
             </div>
             <a
@@ -45,7 +38,7 @@ const VolunteerLabel = () => {
             </a>
           </div>
         </div>
-      </header>
+      </header> */}
       <div className="image-8-parent1">
         <div className="image-83" />
         <button className="contact-us-wrapper1">

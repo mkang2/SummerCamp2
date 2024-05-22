@@ -1,10 +1,13 @@
 import FrameComponent10 from "../components/FrameComponent10";
 import "./Program.css";
+import BottomBar from "../components/BottomBar";
+import NavBar from "../components/NavBar";
 
 const Program = () => {
   return (
     <div className="program1">
-      <header className="frame-container">
+      <NavBar></NavBar>
+      {/* <header className="frame-container">
         <div className="image-3-group">
           <img
             className="image-3-icon1"
@@ -25,11 +28,6 @@ const Program = () => {
                 <a href="/program">Program</a>
                 <a href="/volunteer">Volunteer</a>
                 <a href="/contact">Contact</a>
-                {/* <div className="home2">Home</div>
-                <div className="about2">About</div>
-                <b className="program2">Program</b>
-                <div className="volunteer1">Volunteer</div>
-                <div className="contact2">Contact</div> */}
               </nav>
             </nav>
             <a
@@ -42,7 +40,7 @@ const Program = () => {
             </a>
           </div>
         </div>
-      </header>
+      </header> */}
       <section className="program-inner">
         <div className="image-8-group">
           <div className="image-81" />
@@ -208,7 +206,7 @@ const Program = () => {
           </div>
         </div>
       </section>
-      <FrameComponent10 />
+      <BottomBar />
     </div>
   );
 };
