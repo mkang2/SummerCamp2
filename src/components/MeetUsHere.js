@@ -15,16 +15,21 @@ const MeetUsHere = () => {
             </div>
             <div className="if-you-are-looking-for-a-way-t-parent">
               <div className="if-you-are-container">
-                <p className="if-you-are">{`If you are looking for a way to serve God while having the most amazing summer experience, please fill out the Registration form below! `}</p>
+                <p className="if-you-are">{`If you are looking for a way to serve God while having the most amazing summer experience, please fill out the registration form below! `}</p>
                 <p className="blank-line5">&nbsp;</p>
                 <p className="make-sure-to">
                   *Make sure to apply as a volunteer
                 </p>
               </div>
               <div className="instance-container">
-                <button className="learn-more-wrapper1">
-                  <b className="learn-more4">Apply Today!</b>
-                </button>
+                <a
+                  href="https://docs.google.com/document/d/12ENpocNVzE1hWJo8EiXFpKg1PMGui46Z/edit?usp=sharing&ouid=108619811667458028511&rtpof=true&sd=true"
+                  target="_blank"
+                >
+                  <button className="learn-more-wrapper1">
+                    <b className="learn-more4">Apply Today!</b>
+                  </button>
+                </a>
               </div>
             </div>
           </div>

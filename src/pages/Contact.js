@@ -29,9 +29,14 @@ const Contact = () => {
                   <a href="/contact">Contact</a>
                 </nav>
               </nav>
-              <button className="register-wrapper">
-                <div className="register">Register</div>
-              </button>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfLalY5hj0OM9tmiKdXrSOY0ltDpwPwAGk6dgxKQX1ka7_uzA/viewform"
+                target="_blank"
+              >
+                <button className="register-wrapper">
+                  <div className="register">Register</div>
+                </button>
+              </a>
             </div>
           </div>
         </header>

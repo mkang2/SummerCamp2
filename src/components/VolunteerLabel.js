@@ -35,9 +35,14 @@ const VolunteerLabel = () => {
                 {/* <div className="contact5">Contact</div> */}
               </div>
             </div>
-            <button className="register-frame">
-              <div className="register4">Register</div>
-            </button>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfLalY5hj0OM9tmiKdXrSOY0ltDpwPwAGk6dgxKQX1ka7_uzA/viewform"
+              target="_blank"
+            >
+              <button className="register-frame">
+                <div className="register4">Register</div>
+              </button>
+            </a>
           </div>
         </div>
       </header>

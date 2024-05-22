@@ -31,9 +31,14 @@ const AboutHero = () => {
                 <div className="contact4">Contact</div> */}
               </nav>
             </nav>
-            <button className="register-button1">
-              <div className="register3">Register</div>
-            </button>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfLalY5hj0OM9tmiKdXrSOY0ltDpwPwAGk6dgxKQX1ka7_uzA/viewform"
+              target="_blank"
+            >
+              <button className="register-button1">
+                <div className="register3">Register</div>
+              </button>
+            </a>
           </div>
         </div>
       </header>

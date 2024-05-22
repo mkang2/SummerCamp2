@@ -32,9 +32,14 @@ const Program = () => {
                 <div className="contact2">Contact</div> */}
               </nav>
             </nav>
-            <button className="register-container">
-              <div className="register1">Register</div>
-            </button>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfLalY5hj0OM9tmiKdXrSOY0ltDpwPwAGk6dgxKQX1ka7_uzA/viewform"
+              target="_blank"
+            >
+              <button className="register-container">
+                <div className="register1">Register</div>
+              </button>
+            </a>
           </div>
         </div>
       </header>
@@ -85,9 +90,14 @@ const Program = () => {
                     </p>
                   </div>
                   <div className="learn-more-button1">
-                    <button className="learn-more-wrapper">
-                      <b className="learn-more">Register</b>
-                    </button>
+                    <a
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSfLalY5hj0OM9tmiKdXrSOY0ltDpwPwAGk6dgxKQX1ka7_uzA/viewform"
+                      target="_blank"
+                    >
+                      <button className="learn-more-wrapper">
+                        <b className="learn-more">Register</b>
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
