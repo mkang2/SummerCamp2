@@ -636,3 +636,140 @@
   line-height: normal;
   letter-spacing: normal;
 }
+/* Media query for screens with a width of 430px */
+@media only screen and (max-width: 430px) {
+  .child-price-icon {
+    height: auto;
+    min-width: auto;
+    width: 100%;
+  }
+
+  .program-details-wrapper {
+    width: 100%;
+  }
+
+  .learn-more-button1 {
+    width: 100%;
+  }
+
+  .contact-us-container {
+    width: 100%;
+  }
+
+  .register1 {
+    min-width: auto;
+  }
+
+  .about2,
+  .contact2,
+  .home2,
+  .program2,
+  .volunteer1 {
+    min-width: auto;
+  }
+
+  .frame-nav,
+  .home-group {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .frame-container {
+    padding: var(--padding-xs);
+  }
+
+  .frame-div {
+    padding: var(--padding-xs) 0;
+  }
+
+  .image-8-group {
+    padding: var(--padding-mini) 0;
+  }
+
+  .child-participant-wrapper {
+    width: 100%;
+    padding: 0 var(--padding-xs);
+  }
+
+  .frame-parent1 {
+    flex-direction: column;
+    gap: var(--gap-mini);
+  }
+
+  .rates-discounts-content {
+    padding-right: 200px;
+    margin-left: -70px;
+  }
+
+  .program-child {
+    padding-right: 100px;
+  }
+
+  .program-dates-and-times {
+    margin-left: -80px;
+  }
+
+  .rates-discounts-content-parent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .program-dates-and-times-wrapper {
+    padding: 10px;
+  }
+
+  .program-dates-and-times {
+    padding: 10px;
+  }
+
+  .daily-schedule {
+    padding-top: 1000px;
+    margin-left: -300px;
+    width: 100%;
+  }
+
+  .email-icon-parent {
+    /* padding-top: -1000px; */
+    margin-top: -900px;
+  }
+
+  .calvary-camp-logo {
+    margin-left: -430px;
+    padding-right: 200px;
+  }
+
+  .frame-parent3 {
+    padding-left: 450px;
+  }
+
+  .discount-each-additional-container {
+    width: 100%;
+  }
+
+  .price-includes-textbooks-not,
+  .discount-each-additional-sibl {
+    width: 100%;
+    display: flex;
+  }
+
+  .non-refundable-deposit-due-container {
+    padding-left: 410px;
+    width: 100%;
+  }
+
+  .discount-each-additional-sibl-wrapper {
+    padding-left: 450px;
+    padding-right: 1000px;
+    width: 100%;
+  }
+
+  .price-includes-textbooks-not {
+    width: 100%;
+  }
+
+  .address-icon {
+    width: 100px;
+  }
+}
