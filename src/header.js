@@ -1,20 +1,20 @@
 import { useState } from "react";
-import { Dialog, Popover, Button } from "@headlessui/react";
+import { Dialog, Popover /*Button*/ } from "@headlessui/react";
 import { Link } from "react-router-dom";
 import {
-  ArrowPathIcon,
+  // ArrowPathIcon,
   Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
+  // ChartPieIcon,
+  // CursorArrowRaysIcon,
+  // FingerPrintIcon,
+  // SquaresPlusIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-import {
-  ChevronDownIcon,
-  PhoneIcon,
-  PlayCircleIcon,
-} from "@heroicons/react/20/solid";
+// import {
+//   ChevronDownIcon,
+//   PhoneIcon,
+//   PlayCircleIcon,
+// } from "@heroicons/react/20/solid";
 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
