@@ -14,7 +14,11 @@ function ProgramPage() {
       <div className="flex flex-col lg:flex-row justify-center items-start py-11 px-4 md:px-8 lg:px-20">
         <div className="w-full lg:w-1/2">
           <div className="mb-8 lg:mb-0 lg:mr-8 flex flex-col items-center">
-            <img src="/frame-42@2x.png" className="rounded-xl w-full"></img>
+            <img
+              src="/frame-42@2x.png"
+              className="rounded-xl w-full"
+              alt="Program 1"
+            ></img>
           </div>
         </div>
         <div className="flex flex-col items-center lg:items-start">
@@ -27,15 +31,15 @@ function ProgramPage() {
             <div className="mb-4 text-center lg:text-left">
               <span>
                 <strong>Dates:</strong> Monday, July 1st to Friday, August 9th
-                <br></br>
-                <br></br>
+                <br />
+                <br />
                 <strong>Times:</strong> 9:00am - 3:30pm
-                <br></br>
-                <br></br>
+                <br />
+                <br />
                 <strong>Ages:</strong> Current Kindergarteners - 7th Grade
                 (Entering 1st - 8th)
-                <br></br>
-                <br></br>
+                <br />
+                <br />
                 <strong>Field Trips:</strong> We will go to one field trip per
                 week
               </span>
@@ -108,7 +112,7 @@ function ProgramPage() {
               <span>
                 <div class="text-center">
                   <strong>July 1st - August 9th</strong>
-                  <br></br>
+                  <br />
                   Mon - Fri / 9am - 3pm
                   <div class="pt-2 border-b-2 border-yellow-400 w-3/4 mx-auto"></div>
                 </div>
@@ -118,19 +122,19 @@ function ProgramPage() {
                   <span>
                     <div class="md:inline-block md:mr-4">
                       9:00 - 9:30
-                      <br></br>
+                      <br />
                       9:30 - 10:15
-                      <br></br>
+                      <br />
                       10:15 - 10:35
-                      <br></br>
+                      <br />
                       10:35 - 11:20
-                      <br></br>
+                      <br />
                       11:20 - 12:15
-                      <br></br>
+                      <br />
                       12:15 - 1:00
-                      <br></br>
+                      <br />
                       1:00 - 3:00
-                      <br></br>
+                      <br />
                       3:00 - 3:30
                     </div>
                   </span>
@@ -139,16 +143,16 @@ function ProgramPage() {
                   <span>
                     <div class="md:inline-block md:pl-4">
                       Morning Worship
-                      <br></br>
-                      Study Session 1<br> </br>
+                      <br />
+                      Study Session 1<br />
                       Snack Time
-                      <br></br>
-                      Study Session 2<br></br>
-                      Study Session 3<br></br>
+                      <br />
+                      Study Session 2<br />
+                      Study Session 3<br />
                       Lunch
-                      <br></br>
+                      <br />
                       Specials/Activity
-                      <br></br>
+                      <br />
                       Closing Worship
                     </div>
                   </span>

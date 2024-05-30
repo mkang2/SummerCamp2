@@ -36,8 +36,8 @@ function ContactPage() {
           <div className="contact-info mb-8">
             <div className="mb-4">
               <span>
-                Got questions or need assistance? Reach out to us today.{" "}
-                <br></br>We're here to help make your summer camp experience
+                Got questions or need assistance? Reach out to us today. <br />
+                We're here to help make your summer camp experience
                 unforgettable!
               </span>
             </div>

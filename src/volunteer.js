@@ -13,7 +13,11 @@ function VolunteerPage() {
       <div className="flex flex-col lg:flex-row justify-center items-start py-11 px-8 lg:px-20">
         <div>
           <div className="mb-8 lg:mb-0 lg:mr-8 flex flex-col items-center">
-            <img src="/image-5@2x.png" className="rounded-xl"></img>
+            <img
+              src="/image-5@2x.png"
+              className="rounded-xl"
+              alt="Volunteer 1"
+            ></img>
           </div>
         </div>
         <div className="flex flex-col items-center">
@@ -26,8 +30,10 @@ function VolunteerPage() {
               <span>
                 If you are looking for a way to serve God while having the most
                 amazing summer experience, please fill out the Registration form
-                below! <br></br>
-                <br></br>*Make sure to apply as a volunteer
+                below!
+                <br />
+                <br />
+                *Make sure to apply as a volunteer
               </span>
             </div>
 

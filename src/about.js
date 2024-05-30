@@ -21,11 +21,13 @@ function AboutPage() {
               src="/program1.jpg"
               className="mb-4 md:mr-4 md:mb-0"
               style={{ maxWidth: "100%", maxHeight: "300px" }}
+              alt="Program 1"
             />
             <img
               src="/program2.jpg"
               className="md:ml-4"
               style={{ maxWidth: "100%", maxHeight: "300px" }}
+              alt="Program 2"
             />
           </div>
           <div className="max-w-lg mx-auto">
@@ -70,6 +72,7 @@ function AboutPage() {
             src="/PastorPaul.png"
             className="mx-auto mb-4"
             style={{ maxWidth: "100%" }}
+            alt="Pastor Paul"
           />
           <span className="font-bold text-xl block">Pastor Paul Baek</span>
           <span className="font-medium italic block mb-4">
