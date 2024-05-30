@@ -19,13 +19,11 @@ function AboutPage() {
           <div className="flex flex-col md:flex-row justify-center items-center mb-4 md:mb-8 pt-8">
             <img
               src="/program1.jpg"
-              alt="About1"
               className="mb-4 md:mr-4 md:mb-0"
               style={{ maxWidth: "100%", maxHeight: "300px" }}
             />
             <img
               src="/program2.jpg"
-              alt="About2"
               className="md:ml-4"
               style={{ maxWidth: "100%", maxHeight: "300px" }}
             />
@@ -71,7 +69,6 @@ function AboutPage() {
           <img
             src="/PastorPaul.png"
             className="mx-auto mb-4"
-            alt="Picture of Pastor Paul"
             style={{ maxWidth: "100%" }}
           />
           <span className="font-bold text-xl block">Pastor Paul Baek</span>

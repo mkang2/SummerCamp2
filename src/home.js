@@ -4,11 +4,10 @@ import { Link } from "react-router-dom";
 function HomePage() {
   return (
     <div>
-      <img src="\Frame3.png" alt="summer camp photo"></img>
+      <img src="\Frame3.png"></img>
       <div className="bg-white py-6 px-4 md:px-40 m-4 grid md:grid-cols-2 md:gap-x-12 items-center">
         <img
           src="/frame-4@2x.png"
-          alt="Students engaged in activity"
           className="rounded-lg mx-auto md:order-2"
           style={{ maxWidth: "100%" }}
         />
@@ -36,7 +35,6 @@ function HomePage() {
       <div className="bg-white py-6 px-4 md:px-40 m-4 grid md:grid-cols-2 md:gap-x-12 items-center">
         <img
           src="/frame-5@2x.png"
-          alt="Students engaged in activity"
           className="rounded-lg mx-auto"
           style={{ maxWidth: "100%" }}
         />
@@ -62,7 +60,6 @@ function HomePage() {
       <div className="bg-white py-6 px-4 md:px-40 m-4 grid md:grid-cols-2 md:gap-x-12 items-center">
         <img
           src="/frame-9@2x.png"
-          alt="Students engaged in activity"
           className="rounded-lg mx-auto md:order-2"
           style={{ maxWidth: "100%" }}
         />
