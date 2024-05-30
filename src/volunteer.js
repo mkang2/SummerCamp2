@@ -39,7 +39,7 @@ function VolunteerPage() {
               <Link
                 to="https://docs.google.com/document/d/12ENpocNVzE1hWJo8EiXFpKg1PMGui46Z/edit?usp=sharing&ouid=108619811667458028511&rtpof=true&sd=true"
                 target="_blank"
-                className="bg-yellow-400 text-white rounded-full px-4 py-2 hover:bg-yellow-300"
+                className="bg-yellow-400 text-white rounded-full px-8 py-4 hover:bg-yellow-300"
               >
                 Apply Today!
               </Link>

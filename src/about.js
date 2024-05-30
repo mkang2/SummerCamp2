@@ -18,14 +18,14 @@ function AboutPage() {
           </span>
           <div className="flex flex-col md:flex-row justify-center items-center mb-4 md:mb-8 pt-8">
             <img
-              src="/frame-5@2x.png"
-              alt="Frame 5"
+              src="/program1.jpg"
+              alt="About1"
               className="mb-4 md:mr-4 md:mb-0"
               style={{ maxWidth: "100%", maxHeight: "300px" }}
             />
             <img
-              src="/frame-9@2x.png"
-              alt="Frame 9"
+              src="/program2.jpg"
+              alt="About2"
               className="md:ml-4"
               style={{ maxWidth: "100%", maxHeight: "300px" }}
             />
