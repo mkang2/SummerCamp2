@@ -1,23 +1,14 @@
 import { useState } from "react";
-import { Dialog, Popover /*Button*/ } from "@headlessui/react";
+import { Dialog, Popover } from "@headlessui/react";
 import { Link } from "react-router-dom";
-import {
-  // ArrowPathIcon,
-  Bars3Icon,
-  // ChartPieIcon,
-  // CursorArrowRaysIcon,
-  // FingerPrintIcon,
-  // SquaresPlusIcon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
-// import {
-//   ChevronDownIcon,
-//   PhoneIcon,
-//   PlayCircleIcon,
-// } from "@heroicons/react/20/solid";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const handleLinkClick = () => {
+    setMobileMenuOpen(false);
+  };
 
   return (
     <header className="bg-yellow-50">
@@ -26,7 +17,11 @@ export default function Example() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <Link to="/" className="flex items-center space-x-4">
+          <Link
+            to="/"
+            className="flex items-center space-x-4"
+            onClick={handleLinkClick}
+          >
             <img className="h-8 w-auto" src="/Logo.png" alt="Calvary Logo" />
             <span className="font-bold text-xl">Calvary Summer Camp</span>
           </Link>
@@ -91,7 +86,11 @@ export default function Example() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-yellow-50 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <Link to="/" className="flex items-center space-x-4">
+            <Link
+              to="/"
+              className="flex items-center space-x-4"
+              onClick={handleLinkClick}
+            >
               <img className="h-8 w-auto" src="/Logo.png" alt="Calvary Logo" />
               <span className="font-bold text-xl">Calvary Summer Camp</span>
             </Link>
@@ -110,30 +109,35 @@ export default function Example() {
                 <Link
                   to="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  onClick={handleLinkClick}
                 >
                   Home
                 </Link>
                 <Link
                   to="/about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  onClick={handleLinkClick}
                 >
                   About
                 </Link>
                 <Link
                   to="/program"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  onClick={handleLinkClick}
                 >
                   Program
                 </Link>
                 <Link
                   to="/volunteer"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  onClick={handleLinkClick}
                 >
                   Volunteer
                 </Link>
                 <Link
                   to="/contact"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  onClick={handleLinkClick}
                 >
                   Contact
                 </Link>
@@ -143,6 +147,7 @@ export default function Example() {
                   to="https://docs.google.com/forms/d/e/1FAIpQLSfLalY5hj0OM9tmiKdXrSOY0ltDpwPwAGk6dgxKQX1ka7_uzA/viewform"
                   target="_blank"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  onClick={handleLinkClick}
                 >
                   Register
                 </Link>

@@ -34,10 +34,14 @@ function ProgramPage() {
             <span>
               <strong>Dates:</strong> Monday, July 1st to Friday, August 9th
               <br />
+              <br />
               <strong>Times:</strong> 9:00am - 3:30pm
               <br />
+              <br />
               <strong>Ages:</strong> Current Kindergarteners - 7th Grade
+              <br />
               (Entering 1st - 8th)
+              <br />
               <br />
               <strong>Field Trips:</strong> We will go to one field trip per
               week
@@ -89,6 +93,7 @@ function ProgramPage() {
           <div>
             <span>
               <i>*$200 non-refundable deposit due upon registration.</i>
+              <br />
               <br />
               <strong>Full payment due by 5/26/24</strong>
             </span>
