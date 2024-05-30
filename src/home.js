@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -23,9 +24,12 @@ function HomePage() {
             </p>
           </div>
           <div className="flex justify-center">
-            <button className="bg-yellow-400 text-white rounded-lg px-4 py-2 hover:bg-yellow-300">
+            <Link
+              to="/about"
+              className="bg-yellow-400 text-white rounded-lg px-4 py-2 hover:bg-yellow-300"
+            >
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -46,9 +50,12 @@ function HomePage() {
             </p>
           </div>
           <div className="flex justify-center">
-            <button className="bg-yellow-400 text-white rounded-lg px-4 py-2 hover:bg-yellow-300">
+            <Link
+              to="/program"
+              className="bg-yellow-400 text-white rounded-lg px-4 py-2 hover:bg-yellow-300"
+            >
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -69,9 +76,12 @@ function HomePage() {
             </p>
           </div>
           <div className="flex justify-center">
-            <button className="bg-yellow-400 text-white rounded-lg px-4 py-2 hover:bg-yellow-300">
+            <Link
+              to="/volunteer"
+              className="bg-yellow-400 text-white rounded-lg px-4 py-2 hover:bg-yellow-300"
+            >
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
       </div>
