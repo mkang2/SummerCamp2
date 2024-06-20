@@ -4,9 +4,11 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from "@heroicons/react/20/solid";
 function ContactPage() {
   return (
     <div>
-      <div className="w-full bg-green-400 flex items-center justify-center py-11">
-        <div className="bg-black bg-opacity-40 rounded-full px-20 py-8">
-          <span className="text-white text-3xl font-bold">Contact</span>
+      <div className="w-full bg-green-400 flex items-center justify-center py-8 md:py-12 lg:py-16">
+        <div className="bg-black bg-opacity-40 rounded-full px-6 md:px-12 py-4 md:py-8">
+          <span className="text-white text-xl md:text-3xl font-bold">
+            Contact
+          </span>
         </div>
       </div>
 

@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 function VolunteerPage() {
   return (
     <div>
-      <div className="w-full bg-purple-400 flex items-center justify-center py-11">
-        <div className="bg-black bg-opacity-40 rounded-full px-20 py-8">
-          <span className="text-white text-3xl font-bold">Volunteer</span>
+      <div className="w-full bg-purple-400 flex items-center justify-center py-8 md:py-12 lg:py-16">
+        <div className="bg-black bg-opacity-40 rounded-full px-6 md:px-12 py-4 md:py-8">
+          <span className="text-white text-xl md:text-3xl font-bold">
+            Volunteer
+          </span>
         </div>
       </div>
 
@@ -14,9 +16,9 @@ function VolunteerPage() {
         <div>
           <div className="mb-8 lg:mb-0 lg:mr-8 flex flex-col items-center">
             <img
-              src="/image-5@2x.png"
+              src="/volunteer.png"
               className="rounded-xl"
-              alt="Volunteer 1"
+              alt="Volunteers"
             ></img>
           </div>
         </div>

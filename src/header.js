@@ -13,7 +13,7 @@ export default function Example() {
   return (
     <header className="bg-yellow-50">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center justify-between p-2 lg:px-2"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -22,7 +22,13 @@ export default function Example() {
             className="flex items-center space-x-4"
             onClick={handleLinkClick}
           >
-            <img className="h-8 w-auto" src="/Logo.png" alt="Calvary Logo" />
+            <img
+              // className
+              src="/summercamp2.png"
+              alt="Calvary Logo"
+              width="70"
+              height="70"
+            />
             <span className="font-bold text-xl">Calvary Summer Camp</span>
           </Link>
         </div>
@@ -36,7 +42,7 @@ export default function Example() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <Popover.Group className="hidden lg:flex lg:gap-x-16">
+        <Popover.Group className="hidden pl-32 lg:flex lg:gap-x-16">
           <Link
             to="/"
             className="text-md font-semibold leading-6 text-gray-900"
@@ -91,7 +97,11 @@ export default function Example() {
               className="flex items-center space-x-4"
               onClick={handleLinkClick}
             >
-              <img className="h-8 w-auto" src="/Logo.png" alt="Calvary Logo" />
+              <img
+                className="h-8 w-auto"
+                src="/summercamp2.png"
+                alt="Calvary Logo"
+              />
               <span className="font-bold text-xl">Calvary Summer Camp</span>
             </Link>
             <button

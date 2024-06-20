@@ -1,13 +1,18 @@
 import React from "react";
-//import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/outline';
 import { PhoneIcon, EnvelopeIcon, MapPinIcon } from "@heroicons/react/20/solid";
 function Footer() {
   return (
-    <footer className="bg-yellow-50 py-6 px-10">
+    <footer className="bg-yellow-50 py-3 px-10">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-4 items-center">
         <div className="md:pl-24 space-y-2">
           <div className="flex items-center space-x-4">
-            <img src="/Logo.png" alt="Calvary Logo" className="h-8 w-auto" />
+            <img
+              src="/summercamp2.png"
+              alt="Calvary Logo"
+              width="30"
+              height="30"
+              // className="h-8 w-auto"
+            />
             <span className="font-bold text-xl">Calvary Summer Camp</span>
           </div>
           <p className="text-gray-600 text-sm md:pl-12">

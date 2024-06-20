@@ -5,8 +5,8 @@ function ProgramPage() {
   return (
     <div>
       {/* Hero Section */}
-      <div className="w-full bg-blue-400 flex items-center justify-center py-11">
-        <div className="bg-black bg-opacity-40 rounded-full px-8 py-4 md:px-20 md:py-8">
+      <div className="w-full bg-blue-400 flex items-center justify-center py-8 md:py-12 lg:py-16">
+        <div className="bg-black bg-opacity-40 rounded-full px-6 md:px-12 py-4 md:py-8">
           <span className="text-white text-xl md:text-3xl font-bold">
             Program
           </span>
@@ -18,7 +18,7 @@ function ProgramPage() {
         {/* Program Image */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
           <img
-            src="/frame-42@2x.png"
+            src="/program.png"
             className="rounded-xl w-full max-w-lg"
             alt="Program 1"
           />
@@ -61,19 +61,19 @@ function ProgramPage() {
 
       {/* Rates and Discounts */}
       <div className="flex flex-col lg:flex-row justify-center items-start py-11 px-4 md:px-8 lg:px-20 space-y-8 lg:space-y-0 lg:space-x-8">
-        <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start space-y-8">
+        <div className="w-full lg:w-1/3 sm:w-1/6 flex flex-col items-center lg:items-start space-y-8">
           <span className="text-black text-xl md:text-3xl font-bold">
             Rates and Discounts
           </span>
-          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-            <div className="bg-blue-200 rounded-lg p-4 w-full text-center">
+          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 w-full">
+            <div className="bg-blue-200 rounded-lg p-4 w-full md:w-1/2 text-center">
               <span>
                 First Child
                 <br />
                 <strong className="text-2xl">$1,665</strong>
               </span>
             </div>
-            <div className="bg-blue-100 rounded-lg p-4 w-full text-center">
+            <div className="bg-blue-100 rounded-lg p-4 w-full md:w-3/4 text-center">
               <span>
                 Each additional child
                 <br />
