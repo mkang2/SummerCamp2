@@ -44,12 +44,11 @@ function ContactPage() {
               </span>
             </div>
             <div className="flex mb-4">
-              <PhoneIcon className="text-black w-5 h-5 mr-2" /> (917) 282-5706;
-              (908) 930-6483
+              <PhoneIcon className="text-black w-5 h-5 mr-2" /> (917) 282-5706
             </div>
             <div className="flex mb-4">
               <EnvelopeIcon className="text-black w-5 h-5 mr-2" />{" "}
-              calvarykumc.summercamp@gmail.com
+              summercamp@calvarykumc.com
             </div>
             <div className="flex">
               <MapPinIcon className="text-black w-5 h-5 mr-2" />

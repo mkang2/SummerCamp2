@@ -22,12 +22,11 @@ function Footer() {
         <div className="text-gray-700 text-sm space-y-1 md:pt-8">
           <div className="text-lg font-bold">Contact Us</div>
           <div className="flex">
-            <PhoneIcon className="text-black w-5 h-5 mr-2" /> (917) 282-5706;
-            (908) 930-6483
+            <PhoneIcon className="text-black w-5 h-5 mr-2" /> (917) 282-5706
           </div>
           <div className="flex">
             <EnvelopeIcon className="text-black w-5 h-5 mr-2" />{" "}
-            calvarykumc.summercamp@gmail.com
+            summercamp@calvarykumc.com
           </div>
           <div className="flex">
             {" "}
