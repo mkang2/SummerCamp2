@@ -16,7 +16,7 @@ function VolunteerPage() {
         <div>
           <div className="mb-8 lg:mb-0 lg:mr-8 flex flex-col items-center">
             <img
-              src="/volunteer.png"
+              src="/volunteers.png"
               className="rounded-xl"
               alt="Volunteers"
             ></img>

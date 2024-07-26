@@ -18,7 +18,7 @@ function ProgramPage() {
         {/* Program Image */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
           <img
-            src="/program.png"
+            src="/programDetails.png"
             className="rounded-xl w-full max-w-lg"
             alt="Program 1"
           />
